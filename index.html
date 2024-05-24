@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rohan Chandra - Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navbar">
+            <h1 class="logo">Rohan Chandra</h1>
+            <ul class="nav-links">
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <img src="profile.jpg" alt="Profile Photo" class="profile-photo">
+        <h2>Welcome, I'm Rohan Chandra</h2>
+        <p>A passionate Software Engineer</p>
+    </section>
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="project-list">
+            <!-- Add your project details here -->
+            <div class="project-item">
+                <h3>QR Code Generator</h3>
+                <p>A web-based application developed with HTML, CSS, and JavaScript, facilitating efficient QR code 
+                    generation through API integration. With its intuitive interface, users can encode various data types 
+                    such as text and URLs swiftly.</p>
+            </div>
+            <div class="project-item">
+                <h3>Portfolio Website</h3>
+                <p>You are viewing it currently:)</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="education">
+        <h2>Education</h2>
+        <div class="education-list">
+            <div class="education-item">
+                <h3>B.Tech(8.14 gpa) - MCKV Institute of Engineering</h3>
+                <p>Undergrad: 2025</p>
+            </div>
+            <div class="education-item">
+                <h3>12th(78.8%) - WBCHSE</h3>
+                <p>Graduated: 2020</p>
+            </div>
+            <div class="education-item">
+                <h3>10th(68.7%) - WBSE</h3>
+                <p>Graduated: 2018</p>
+            </div>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <form class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer class="footer">
+        <p>&copy; 2024 Rohan Chandra. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
